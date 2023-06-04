@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #E6E6E6; 
+}
+
+/* .tong {
+    max-width: 100%;
+    margin: 0 auto;
+} */
+
+.tren {
+    display: flex;  
+    width: 100%;
+    background-color: black;
+    height: 30px;
+    line-height: 30px
+}
+
+.tieude {
+  margin-left: 590px;
+  margin-right: 260px;
+}
+
+.tieude p {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.icon a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.logo {
+    padding-top: 10px;
+    display: flex;
+}
+
+.logo-first img {
+    height: 60px;
+    margin-left: 610px;
+    margin-right: 195px;
+}
+
+.logo .timkiem input{
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 245px;
+    height: 40px;
+    padding: 3px 10px 3px 40px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.logo .logotimkiem {
+    margin-top: 20px;
+}
+
+      /* MENU */
+
+.menu {
+    width: 100%;
+    min-height: 30px;
+}      
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li{
+    line-height: 30px;
+    padding: 0 10px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li a:hover {
+    font-weight: bold;
+}
+
+.banner img {
+    width: 1300px;
+    height: 430px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto ;
+}
+
+   /* Sản phẩm */
+   article h1{
+    background-image: url(./image/thanh\ san\ pham.webp);
+    width: 1300px;
+    height: 60px;
+    background-size: 100% 100%;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+   
+}
+.wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+ul.products{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-item{
+    margin: 20px 0px;
+}
+ul.products li{
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-basis: 25%;
+    margin-bottom: 30px;
+}
+ul.products li img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.product-item .product-top{
+    transition: all 0.3s ease;
+}
+.product-item .product-top:hover{
+    padding: 10px;
+}
+
+.products li .product-info{
+    padding: 10px 0px;
+}
+.products li .product-info a{
+    display: block;
+    text-decoration: none;
+}
+.products li .product-info a.product-hang{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #9e9e9e;
+    padding: 3px 0px;
+
+}
+.products li .product-info a.product-name{
+    color: #334862;
+    padding: 3px 0px;
+}
+.products li .product-info .product-gia{
+    color: #111;
+}
+
+/* footer */
+
+footer{
+   
+    background-color: #24262b;
+    padding: 70px 0;
+}
+ul{
+    list-style: none;
+}
+.lon{
+    max-width: 1300px;
+    margin: auto;
+}
+.row{
+    display: flex ;
+    flex-wrap: wrap;
+}
+.row-clo{
+    width: 25%;
+    padding: 0 15px;
+}
+.row-clo h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px  ;
+}
+.row-clo ul li{
+    margin-bottom: 20px;
+    color: #bbbbbb ;
+}
+.row-clo ul li a{
+    text-decoration: none;
+    color: #bbbbbb;
+    transition: all 0.3s ease;
+}
+.row-clo ul li a:hover{
+    color: red;
+    padding-left: 30px;
+}
+.row-clo .logo-footer a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255, 0.2);
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff ;
+    transition: all 0.3s ease;
+}
+.row-clo .logo-footer a:hover{
+    color: red;
+    background-color: #ffffff;
+    
+}

@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .container {
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: #E6E6E6; 
+} */
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    margin-top: 30px    ;
+}
+ul li img {
+    width: 100px;
+    cursor: pointer;
+    object-fit: cover;
+    border: 1px solid transparent;
+}
+
+ul li img:hover {
+    border: 1px solid red;
+}
+
+.main-img {
+    width: 500px;
+}
+
+.main-img img {
+    width: 410px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.chon {
+    margin-bottom: 10px;
+}
+
+.thuonghieu {
+    color: #337ab7;
+}
+
+.chon2 {
+    margin-bottom: 10px;
+}
+
+.ml {
+    width: 100px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+
+.price {
+    color: red;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.tieude-khuyenmai {
+    margin-bottom: 10px;
+}
+
+.magiamgia {
+    color: red;
+}
+
+.button {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.dathang {
+    width: 525px;
+    height: 48px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #fe9727;
+    border: none;
+}
+
+.giohang {
+    width: 250px;
+    height: 48px ;
+    cursor: pointer;
+    background: #288ad6;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+.muatrasau {
+    width: 250px;
+    height: 48px;
+    cursor: pointer;
+    background: #288ad6;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+.thongtin {
+    width: 1150px;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.thongtin img {
+    display: block;
+    margin: 20px auto;
+}
